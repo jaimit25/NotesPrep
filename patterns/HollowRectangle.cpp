@@ -13,15 +13,17 @@ int i=1 ,j=1;
         for(i=1;i<=row;i++){
 
             for(j=1;j<=column;j++){
+
                 if(i==1||i==row){
-                    cout<<"*";
+                    cout<<" *";
                 }
                 else if(j==1||j==column){
-                    cout<<"*";
+                    cout<<" *";
                 }
                 else{
-                    cout<<" ";
+                    cout<<"  ";
                 }
+
             }
                   
             cout<<endl;
